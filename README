@@ -1,0 +1,38 @@
+npm install
+
+1.. با تغییر ایجاد کردن در قسمت کانفیگ دات جی اس بر اساس کالشن خودم و در نظر گرفت اولویت لایه ها
+(فقط حتما هشتگ بعد از اسم عکس ها باشد که با عدد بعدش ریریتی رو مشخص کنم)
+
+ایجاد کالکشن 
+node index.js
+
+ بعد برای تغییر اسم هر عکس یا ای پی اف اس یا هر تغییری در متادیتا در کانفیگ تغییرات رو ایجاد کرده
+ و بعد
+ npm run update_info
+node .\utils\updateBaseUri.js
+
+
+
+ برای دیدن ریریتی هر قسمت در کاکشن ایجاد شده
+ node .\utils\rarity.js
+ npm run rarity
+
+برای دیدن لیستی از عکس های کالکشن
+npm run preview
+
+برای رندوم کردن عکس ها 
+const shuffleLayerConfigurations = false;  ====>>> true
+
+
+برای جزییات بیشتر
+const debugLogs = false; ===>>> true
+node index.js
+ولی زیاد مهم نیست
+
+
+برای سایز
+const format = {
+  width: 512,
+  height: 512,
+  smoothing: false,
+};
